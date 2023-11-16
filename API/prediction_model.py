@@ -13,8 +13,8 @@ class PredictionModel:
     def make_predictions(self, data):
         predicted = self.model.predict_proba(data)
         classesName = {
-            0: "False",
-            1: "True"
+            0: 0,
+            1: 1
         }
         classes = list(map(lambda x : classesName[x],self.model.classes_))
         results = []
