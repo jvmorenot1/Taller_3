@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=BpOR62Po-9M&feature=youtu.be
 
 -John Vicente Moreno Triviño – 202210162
 
-Este repositorio contiene los entregables correspondientes al Taller 3 de la asignatura Ciencia de Datos Aplicada. A continuación se describe el contenido:
+Este repositorio contiene los entregables correspondientes al Taller 3 de la asignatura Ciencia de Datos Aplicada. A continuación, se describe el contenido:
 
 1. El notebook "Taller3-Modelos_Clasificación.ipynb" contiene todo lo relativo al entendimiento y preparación de datos, el desarrollo del modelo base y la búsqueda del mejor modelo mediante pipelines y grids, encapsulando así los modelos generados. En este notebook se dan las explicaciones y respuestas a las cuestiones planteadas en los puntos 1, 2 y 3 del taller.
 2. El script "transformersMethods.py" contiene una función simple de transformación de datos vacíos, la cual es consumida por los pipelines de búsqueda de los mejores modelos en el notebook y por la API.
