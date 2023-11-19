@@ -1,10 +1,13 @@
 # Taller_3
-Enlace a Youtube con el video de la prueba de la API REST: 
+Enlace a Youtube con el video de la prueba de la API REST:
+
 https://www.youtube.com/watch?v=BpOR62Po-9M&feature=youtu.be
 
 # Integrantes
 -Yachay Tolosa Bello – 202315750
+
 -Kevin Infante Hernández – 201117324​
+
 -John Vicente Moreno Triviño – 202210162
 
 Este repositorio contiene los entregables correspondientes al Taller 3 de la asignatura Ciencia de Datos Aplicada. A continuación se describe el contenido:
