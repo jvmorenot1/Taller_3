@@ -2,12 +2,18 @@ from joblib import load
 import pandas as pd
 import shap
 
+def replace_empty_with_zero(series):
+    """
+    Replaces empty values with zeros
+    """
+    return series.replace('', 0)
+
 class PredictionModel:
 
     def __init__(self, model_version):
         if model_version == 1:
             self.model = load("models/churn-v1.joblib")
-        else:
+        elif model_version == 2:
             self.model = load("models/churn-v2.joblib")
 
     def make_predictions(self, data):
@@ -20,7 +26,7 @@ class PredictionModel:
         results = []
         # Pair together classes and their corresponding probability
         for prediction in predicted:
-            result = dict(zip(classes, prediction))
+            result = dict(zip(classes, prediction.tolist()))
             results.append(result)
         return results
 
